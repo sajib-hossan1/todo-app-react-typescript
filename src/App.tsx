@@ -1,9 +1,10 @@
 import React from 'react';
+import TodoApp from './Todo/Todo';
 
-function App() {
+const App : React.FC = () => {
   return (
-    <div className="App">
-        <h1>Hello World...</h1>
+    <div style={{margin :0,padding:0}}>
+        <TodoApp></TodoApp>
     </div>
   );
 }

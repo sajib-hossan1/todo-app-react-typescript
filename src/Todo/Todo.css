@@ -1,0 +1,11 @@
+.todo-container {
+    font-family: 'Poppins', sans-serif;
+}
+
+.todo-container h2 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}

@@ -1,0 +1,30 @@
+.todoList-container {
+    margin-top: 10px;
+}
+
+.todos-container {
+    max-width: 600px;
+    margin-top: 20px;
+    background-color: rgb(102, 138, 228);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.t-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-overflow: ellipsis;
+}
+
+.t-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.t-container .icons  i{
+    margin-left: 20px;
+    cursor: pointer;
+}
