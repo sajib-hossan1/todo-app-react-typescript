@@ -17,12 +17,10 @@ const TodoApp = () => {
             setTodo("")
         }
     };
-    console.log(todos);
-    
     
     return (
         <div className='todo-container container'>
-            <h2>Todo App</h2>
+            <h2 className='pt-3'>Todo App</h2>
             <InputFiled todo={todo} setTodo={setTodo} handlerAdd={handlerAdd}></InputFiled>
             <TodoList todos={todos} setTodos={setTodos}></TodoList>
         </div>

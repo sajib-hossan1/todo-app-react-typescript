@@ -1,0 +1,41 @@
+
+.todos-container {
+    max-width: 600px;
+    margin-top: 20px;
+    background-color: #32C3CD;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.t-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.t-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.t-container input {
+    width: max-content;
+    border: 1px solid rgba(255, 255, 255, 0.49);
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.496);
+}
+
+.t-container .icons {
+    background-color: #f6563a;
+    border-radius: 3px;
+}
+
+.t-container .icons  i{
+    padding: 10px;
+    cursor: pointer;
+}

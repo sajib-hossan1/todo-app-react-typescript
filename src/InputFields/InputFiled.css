@@ -3,11 +3,30 @@
     text-align: center;
 }
 
-.input-container input {
-    display: inline-block;
-    max-width: 600px;
+.input-field-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 
-.input-container button {
-    margin-left: 20px;
+.input-field-container input {
+    width: 600px;
+    border: 1px solid rgba(128, 128, 128, 0.316);
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.input-field-container button {
+    border: none;
+    outline: none;
+    color: black;
+    padding: 0px 14px;
+    border-radius: 3px;
+    background: linear-gradient(145deg, #eaedf0, #ffffff);
+    box-shadow: 4px 4px 8px #cbcbcb, 4px -4px 8px #ffffff;
+}
+
+.input-field-container button:hover {
+    color: rgb(123, 123, 123);
 }
