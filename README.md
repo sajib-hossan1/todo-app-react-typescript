@@ -1,6 +1,6 @@
 # To-doo App
 > A simple todo or task app where your task will sticky
-> Live demo [_here_](https://sajib-hossan1.github.io/coffee-shop/).
+> Live demo [_here_](https://task-todoo.netlify.app/).
 
 ## Technologies Used
 - HTML5
